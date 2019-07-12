@@ -48,10 +48,10 @@ RM = /home/ehsan/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7479.33/bin/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ehsan/Projects/AP/Snake
+CMAKE_SOURCE_DIR = "/home/ehsan/Projects/AP/Snake/Miniature Snake.io"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ehsan/Projects/AP/Snake/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ehsan/Projects/AP/Snake/cmake-build-debug/CMakeFiles /home/ehsan/Projects/AP/Snake/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ehsan/Projects/AP/Snake/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -123,6 +123,33 @@ Snake/fast:
 	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
+classes/window.o: classes/window.cpp.o
+
+.PHONY : classes/window.o
+
+# target to build an object file
+classes/window.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.o
+.PHONY : classes/window.cpp.o
+
+classes/window.i: classes/window.cpp.i
+
+.PHONY : classes/window.i
+
+# target to preprocess a source file
+classes/window.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.i
+.PHONY : classes/window.cpp.i
+
+classes/window.s: classes/window.cpp.s
+
+.PHONY : classes/window.s
+
+# target to generate assembly for a file
+classes/window.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.s
+.PHONY : classes/window.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Snake"
 	@echo "... edit_cache"
+	@echo "... classes/window.o"
+	@echo "... classes/window.i"
+	@echo "... classes/window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ehsan/Projects/AP/Snake/main.cpp" "/home/ehsan/Projects/AP/Snake/cmake-build-debug/CMakeFiles/Snake.dir/main.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/classes/window.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/main.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

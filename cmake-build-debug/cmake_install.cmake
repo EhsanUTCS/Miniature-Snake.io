@@ -1,4 +1,4 @@
-# Install script for directory: /home/ehsan/Projects/AP/Snake
+# Install script for directory: /home/ehsan/Projects/AP/Snake/Miniature Snake.io
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ehsan/Projects/AP/Snake/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

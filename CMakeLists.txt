@@ -3,4 +3,4 @@ project(Snake)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Snake main.cpp)
+add_executable(Snake main.cpp classes/window.cpp classes/window.h)
