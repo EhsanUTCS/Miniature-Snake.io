@@ -1,6 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Snake.dir/main.cpp.o"
-  "CMakeFiles/Snake.dir/classes/window.cpp.o"
+  "CMakeFiles/Snake.dir/src/core/App.cpp.o"
+  "CMakeFiles/Snake.dir/src/core/Context.cpp.o"
+  "CMakeFiles/Snake.dir/src/core/Widget.cpp.o"
+  "CMakeFiles/Snake.dir/src/pages/Menu.cpp.o"
+  "CMakeFiles/Snake.dir/src/core/Page.cpp.o"
+  "CMakeFiles/Snake.dir/src/widgets/Button.cpp.o"
   "Snake.pdb"
   "Snake"
 )

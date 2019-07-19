@@ -5,7 +5,7 @@
 		<Option title="Snake"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug"/>
@@ -84,17 +84,53 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp">
-			<Option target="Snake"/>
-		</Unit>
-		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.h">
-			<Option target="Snake"/>
-		</Unit>
 		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/main.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/constants.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.h">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.cpp">
+			<Option target="Snake"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.h">
 			<Option target="Snake"/>
 		</Unit>
 		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

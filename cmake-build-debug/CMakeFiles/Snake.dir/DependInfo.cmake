@@ -4,8 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/classes/window.cpp.o"
   "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/main.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/main.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/core/App.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/core/Context.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/core/Page.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/core/Widget.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/pages/Menu.cpp.o"
+  "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.cpp" "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles/Snake.dir/src/widgets/Button.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

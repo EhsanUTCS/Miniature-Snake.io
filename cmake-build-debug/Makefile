@@ -123,33 +123,6 @@ Snake/fast:
 	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/build
 .PHONY : Snake/fast
 
-classes/window.o: classes/window.cpp.o
-
-.PHONY : classes/window.o
-
-# target to build an object file
-classes/window.cpp.o:
-	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.o
-.PHONY : classes/window.cpp.o
-
-classes/window.i: classes/window.cpp.i
-
-.PHONY : classes/window.i
-
-# target to preprocess a source file
-classes/window.cpp.i:
-	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.i
-.PHONY : classes/window.cpp.i
-
-classes/window.s: classes/window.cpp.s
-
-.PHONY : classes/window.s
-
-# target to generate assembly for a file
-classes/window.cpp.s:
-	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/classes/window.cpp.s
-.PHONY : classes/window.cpp.s
-
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -177,6 +150,168 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/core/App.o: src/core/App.cpp.o
+
+.PHONY : src/core/App.o
+
+# target to build an object file
+src/core/App.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/App.cpp.o
+.PHONY : src/core/App.cpp.o
+
+src/core/App.i: src/core/App.cpp.i
+
+.PHONY : src/core/App.i
+
+# target to preprocess a source file
+src/core/App.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/App.cpp.i
+.PHONY : src/core/App.cpp.i
+
+src/core/App.s: src/core/App.cpp.s
+
+.PHONY : src/core/App.s
+
+# target to generate assembly for a file
+src/core/App.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/App.cpp.s
+.PHONY : src/core/App.cpp.s
+
+src/core/Context.o: src/core/Context.cpp.o
+
+.PHONY : src/core/Context.o
+
+# target to build an object file
+src/core/Context.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Context.cpp.o
+.PHONY : src/core/Context.cpp.o
+
+src/core/Context.i: src/core/Context.cpp.i
+
+.PHONY : src/core/Context.i
+
+# target to preprocess a source file
+src/core/Context.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Context.cpp.i
+.PHONY : src/core/Context.cpp.i
+
+src/core/Context.s: src/core/Context.cpp.s
+
+.PHONY : src/core/Context.s
+
+# target to generate assembly for a file
+src/core/Context.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Context.cpp.s
+.PHONY : src/core/Context.cpp.s
+
+src/core/Page.o: src/core/Page.cpp.o
+
+.PHONY : src/core/Page.o
+
+# target to build an object file
+src/core/Page.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Page.cpp.o
+.PHONY : src/core/Page.cpp.o
+
+src/core/Page.i: src/core/Page.cpp.i
+
+.PHONY : src/core/Page.i
+
+# target to preprocess a source file
+src/core/Page.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Page.cpp.i
+.PHONY : src/core/Page.cpp.i
+
+src/core/Page.s: src/core/Page.cpp.s
+
+.PHONY : src/core/Page.s
+
+# target to generate assembly for a file
+src/core/Page.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Page.cpp.s
+.PHONY : src/core/Page.cpp.s
+
+src/core/Widget.o: src/core/Widget.cpp.o
+
+.PHONY : src/core/Widget.o
+
+# target to build an object file
+src/core/Widget.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Widget.cpp.o
+.PHONY : src/core/Widget.cpp.o
+
+src/core/Widget.i: src/core/Widget.cpp.i
+
+.PHONY : src/core/Widget.i
+
+# target to preprocess a source file
+src/core/Widget.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Widget.cpp.i
+.PHONY : src/core/Widget.cpp.i
+
+src/core/Widget.s: src/core/Widget.cpp.s
+
+.PHONY : src/core/Widget.s
+
+# target to generate assembly for a file
+src/core/Widget.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/core/Widget.cpp.s
+.PHONY : src/core/Widget.cpp.s
+
+src/pages/Menu.o: src/pages/Menu.cpp.o
+
+.PHONY : src/pages/Menu.o
+
+# target to build an object file
+src/pages/Menu.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/pages/Menu.cpp.o
+.PHONY : src/pages/Menu.cpp.o
+
+src/pages/Menu.i: src/pages/Menu.cpp.i
+
+.PHONY : src/pages/Menu.i
+
+# target to preprocess a source file
+src/pages/Menu.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/pages/Menu.cpp.i
+.PHONY : src/pages/Menu.cpp.i
+
+src/pages/Menu.s: src/pages/Menu.cpp.s
+
+.PHONY : src/pages/Menu.s
+
+# target to generate assembly for a file
+src/pages/Menu.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/pages/Menu.cpp.s
+.PHONY : src/pages/Menu.cpp.s
+
+src/widgets/Button.o: src/widgets/Button.cpp.o
+
+.PHONY : src/widgets/Button.o
+
+# target to build an object file
+src/widgets/Button.cpp.o:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/widgets/Button.cpp.o
+.PHONY : src/widgets/Button.cpp.o
+
+src/widgets/Button.i: src/widgets/Button.cpp.i
+
+.PHONY : src/widgets/Button.i
+
+# target to preprocess a source file
+src/widgets/Button.cpp.i:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/widgets/Button.cpp.i
+.PHONY : src/widgets/Button.cpp.i
+
+src/widgets/Button.s: src/widgets/Button.cpp.s
+
+.PHONY : src/widgets/Button.s
+
+# target to generate assembly for a file
+src/widgets/Button.cpp.s:
+	$(MAKE) -f CMakeFiles/Snake.dir/build.make CMakeFiles/Snake.dir/src/widgets/Button.cpp.s
+.PHONY : src/widgets/Button.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +321,27 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Snake"
 	@echo "... edit_cache"
-	@echo "... classes/window.o"
-	@echo "... classes/window.i"
-	@echo "... classes/window.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/core/App.o"
+	@echo "... src/core/App.i"
+	@echo "... src/core/App.s"
+	@echo "... src/core/Context.o"
+	@echo "... src/core/Context.i"
+	@echo "... src/core/Context.s"
+	@echo "... src/core/Page.o"
+	@echo "... src/core/Page.i"
+	@echo "... src/core/Page.s"
+	@echo "... src/core/Widget.o"
+	@echo "... src/core/Widget.i"
+	@echo "... src/core/Widget.s"
+	@echo "... src/pages/Menu.o"
+	@echo "... src/pages/Menu.i"
+	@echo "... src/pages/Menu.s"
+	@echo "... src/widgets/Button.o"
+	@echo "... src/widgets/Button.i"
+	@echo "... src/widgets/Button.s"
 .PHONY : help
 
 

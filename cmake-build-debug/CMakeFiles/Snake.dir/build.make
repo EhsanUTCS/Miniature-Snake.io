@@ -70,32 +70,112 @@ CMakeFiles/Snake.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/main.cpp" -o CMakeFiles/Snake.dir/main.cpp.s
 
-CMakeFiles/Snake.dir/classes/window.cpp.o: CMakeFiles/Snake.dir/flags.make
-CMakeFiles/Snake.dir/classes/window.cpp.o: ../classes/window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Snake.dir/classes/window.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/classes/window.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp"
+CMakeFiles/Snake.dir/src/core/App.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/core/App.cpp.o: ../src/core/App.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Snake.dir/src/core/App.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/core/App.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.cpp"
 
-CMakeFiles/Snake.dir/classes/window.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/classes/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp" > CMakeFiles/Snake.dir/classes/window.cpp.i
+CMakeFiles/Snake.dir/src/core/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/core/App.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.cpp" > CMakeFiles/Snake.dir/src/core/App.cpp.i
 
-CMakeFiles/Snake.dir/classes/window.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/classes/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/classes/window.cpp" -o CMakeFiles/Snake.dir/classes/window.cpp.s
+CMakeFiles/Snake.dir/src/core/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/core/App.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/App.cpp" -o CMakeFiles/Snake.dir/src/core/App.cpp.s
+
+CMakeFiles/Snake.dir/src/core/Context.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/core/Context.cpp.o: ../src/core/Context.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Snake.dir/src/core/Context.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/core/Context.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.cpp"
+
+CMakeFiles/Snake.dir/src/core/Context.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/core/Context.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.cpp" > CMakeFiles/Snake.dir/src/core/Context.cpp.i
+
+CMakeFiles/Snake.dir/src/core/Context.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/core/Context.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Context.cpp" -o CMakeFiles/Snake.dir/src/core/Context.cpp.s
+
+CMakeFiles/Snake.dir/src/core/Widget.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/core/Widget.cpp.o: ../src/core/Widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Snake.dir/src/core/Widget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/core/Widget.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.cpp"
+
+CMakeFiles/Snake.dir/src/core/Widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/core/Widget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.cpp" > CMakeFiles/Snake.dir/src/core/Widget.cpp.i
+
+CMakeFiles/Snake.dir/src/core/Widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/core/Widget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Widget.cpp" -o CMakeFiles/Snake.dir/src/core/Widget.cpp.s
+
+CMakeFiles/Snake.dir/src/pages/Menu.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/pages/Menu.cpp.o: ../src/pages/Menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Snake.dir/src/pages/Menu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/pages/Menu.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.cpp"
+
+CMakeFiles/Snake.dir/src/pages/Menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/pages/Menu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.cpp" > CMakeFiles/Snake.dir/src/pages/Menu.cpp.i
+
+CMakeFiles/Snake.dir/src/pages/Menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/pages/Menu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/pages/Menu.cpp" -o CMakeFiles/Snake.dir/src/pages/Menu.cpp.s
+
+CMakeFiles/Snake.dir/src/core/Page.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/core/Page.cpp.o: ../src/core/Page.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Snake.dir/src/core/Page.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/core/Page.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.cpp"
+
+CMakeFiles/Snake.dir/src/core/Page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/core/Page.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.cpp" > CMakeFiles/Snake.dir/src/core/Page.cpp.i
+
+CMakeFiles/Snake.dir/src/core/Page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/core/Page.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/core/Page.cpp" -o CMakeFiles/Snake.dir/src/core/Page.cpp.s
+
+CMakeFiles/Snake.dir/src/widgets/Button.cpp.o: CMakeFiles/Snake.dir/flags.make
+CMakeFiles/Snake.dir/src/widgets/Button.cpp.o: ../src/widgets/Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Snake.dir/src/widgets/Button.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Snake.dir/src/widgets/Button.cpp.o -c "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.cpp"
+
+CMakeFiles/Snake.dir/src/widgets/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Snake.dir/src/widgets/Button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.cpp" > CMakeFiles/Snake.dir/src/widgets/Button.cpp.i
+
+CMakeFiles/Snake.dir/src/widgets/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Snake.dir/src/widgets/Button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/ehsan/Projects/AP/Snake/Miniature Snake.io/src/widgets/Button.cpp" -o CMakeFiles/Snake.dir/src/widgets/Button.cpp.s
 
 # Object files for target Snake
 Snake_OBJECTS = \
 "CMakeFiles/Snake.dir/main.cpp.o" \
-"CMakeFiles/Snake.dir/classes/window.cpp.o"
+"CMakeFiles/Snake.dir/src/core/App.cpp.o" \
+"CMakeFiles/Snake.dir/src/core/Context.cpp.o" \
+"CMakeFiles/Snake.dir/src/core/Widget.cpp.o" \
+"CMakeFiles/Snake.dir/src/pages/Menu.cpp.o" \
+"CMakeFiles/Snake.dir/src/core/Page.cpp.o" \
+"CMakeFiles/Snake.dir/src/widgets/Button.cpp.o"
 
 # External object files for target Snake
 Snake_EXTERNAL_OBJECTS =
 
 Snake: CMakeFiles/Snake.dir/main.cpp.o
-Snake: CMakeFiles/Snake.dir/classes/window.cpp.o
+Snake: CMakeFiles/Snake.dir/src/core/App.cpp.o
+Snake: CMakeFiles/Snake.dir/src/core/Context.cpp.o
+Snake: CMakeFiles/Snake.dir/src/core/Widget.cpp.o
+Snake: CMakeFiles/Snake.dir/src/pages/Menu.cpp.o
+Snake: CMakeFiles/Snake.dir/src/core/Page.cpp.o
+Snake: CMakeFiles/Snake.dir/src/widgets/Button.cpp.o
 Snake: CMakeFiles/Snake.dir/build.make
+Snake: /usr/lib/x86_64-linux-gnu/libsfml-system.so
+Snake: /usr/lib/x86_64-linux-gnu/libsfml-window.so
+Snake: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so
+Snake: /usr/lib/x86_64-linux-gnu/libsfml-network.so
+Snake: /usr/lib/x86_64-linux-gnu/libsfml-audio.so
 Snake: CMakeFiles/Snake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Snake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/ehsan/Projects/AP/Snake/Miniature Snake.io/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Snake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Snake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
